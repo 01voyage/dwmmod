@@ -7,6 +7,8 @@
 int main(void){
         for(;;){
         // Modules are defined here:
+                
+                
         char* dateMod(){
             time_t t = time(NULL);
             char* var = ctime(&t);
@@ -17,7 +19,8 @@ int main(void){
         // Gives date_module the return value of dateMod()/
         char* date_module = dateMod();
         //printf("date_module = %s\n", date_module);
-        ////////////////////////////////////////////////
+                
+    
 
         int batteryMod(){
             FILE* fptr;
@@ -49,7 +52,7 @@ int main(void){
         strcat(battery_module, "%");
         //printf("battery_module = %s\n", battery_module);
 
-        ////////////////////////////// Configuration //////////////////////////////
+        // Configuration:
 
         // The seperator between modules
         char* spacer =  " | ";
