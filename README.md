@@ -1,2 +1,8 @@
 # dwmmod
-modular and customizable status bar plugin for dwm
+simple, modular and customizable status bar plugin for dwm
+
+# usage
+ - `sudo make install` 
+ - add `exec dwmmod` to your .xinitrc, or run it in your terminal with `dwmmod`
+
+
