@@ -33,7 +33,7 @@ int main(void){
 
             if(fptr == NULL){
                 printf("Battery capacity inaccesible!");
-                return 0;
+                return 1;
                 }
 
             fscanf (fptr, "%d", &capacity);
