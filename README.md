@@ -1,5 +1,5 @@
 # dwmmod
-simple, modular and customizable status bar plugin for dwm
+simple, modular and customizable status bar program for dwm
 
 # usage
  - `sudo make install` 
